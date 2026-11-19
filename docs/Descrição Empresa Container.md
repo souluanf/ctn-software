@@ -22,7 +22,7 @@ A logo mostra três camadas de contêineres empilhados, como num porto: um cont�
 
 Foi desenhada em SVG com formas simples, para ficar nítida em qualquer tamanho e servir também como ícone da aba do navegador. Ao lado do desenho fica o nome "Container" na fonte dos títulos.
 
-Arquivo: `img/logo.svg`
+Arquivo: `assets/img/logo.svg`
 
 ## 3. Identidade visual
 
@@ -42,7 +42,7 @@ O verde-petróleo passa seriedade e estabilidade sem ser o azul que quase toda e
 - **Archivo** (títulos e marca): fonte sem serifa, firme e um pouco larga, que lembra as letras pintadas na lateral dos contêineres.
 - **Source Sans 3** (textos, botões e formulários): fonte fácil de ler em telas pequenas.
 
-As duas são do Google Fonts.
+As duas são do Google Fonts e ficam salvas dentro do projeto, na pasta `assets/fontes`.
 
 ### Padrões visuais
 
