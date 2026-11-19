@@ -1,0 +1,359 @@
+:root {
+    --cor-principal: #1F4D4A;
+    --cor-secundaria: #EEF3F1;
+    --cor-destaque: #E3A72F;
+    --cor-destaque-escura: #C98E17;
+    --cor-texto: #1B2726;
+    --cor-borda: #D3DFDC;
+
+    --fonte-titulo: "Archivo", Arial, sans-serif;
+    --fonte-texto: "Source Sans 3", Arial, sans-serif;
+}
+
+html {
+    scroll-padding-top: 72px;
+}
+
+body {
+    font-family: var(--fonte-texto);
+    font-size: 1.05rem;
+    color: var(--cor-texto);
+    background-color: #fff;
+}
+
+a {
+    color: var(--cor-principal);
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--fonte-titulo);
+    color: var(--cor-principal);
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn {
+    border-radius: 4px;
+    font-weight: 600;
+    padding: 0.5rem 1.25rem;
+}
+
+.btn-primary {
+    background-color: var(--cor-destaque);
+    border-color: var(--cor-destaque);
+    color: var(--cor-texto);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+    background-color: var(--cor-destaque-escura) !important;
+    border-color: var(--cor-destaque-escura) !important;
+    color: var(--cor-texto) !important;
+}
+
+.btn-outline-primary {
+    border-color: var(--cor-principal);
+    color: var(--cor-principal);
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active {
+    background-color: var(--cor-principal) !important;
+    border-color: var(--cor-principal) !important;
+    color: #fff !important;
+}
+
+.navbar {
+    background-color: var(--cor-secundaria);
+    border-bottom: 1px solid var(--cor-borda);
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--fonte-titulo);
+    font-size: 1.5rem;
+    color: var(--cor-principal);
+}
+
+.navbar .nav-link {
+    color: var(--cor-principal);
+    font-weight: 600;
+}
+
+.btn-menu {
+    padding: 0.4rem 1rem;
+}
+
+.navbar .nav-link:hover {
+    color: var(--cor-texto);
+}
+
+.navbar .nav-link.active {
+    color: var(--cor-texto);
+    border-bottom: 3px solid var(--cor-destaque);
+}
+
+.carousel {
+    background-color: var(--cor-principal);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 3.5rem;
+}
+
+.slide {
+    min-height: 480px;
+    padding: 2.5rem 2.5rem 3.5rem;
+}
+
+.slide-texto h1,
+.slide-texto h2 {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.slide-texto h1 {
+    font-size: 3rem;
+}
+
+.slide-texto p {
+    color: var(--cor-secundaria);
+    font-size: 1.15rem;
+    max-width: 30rem;
+}
+
+.slide-imagem {
+    width: 100%;
+    height: auto;
+    max-height: 380px;
+    object-fit: contain;
+}
+
+.secao {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+}
+
+.fundo-claro {
+    background-color: var(--cor-secundaria);
+}
+
+.lead {
+    margin-bottom: 2rem;
+}
+
+.card {
+    border: 1px solid var(--cor-borda);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.card-title {
+    font-size: 1.25rem;
+}
+
+.card-footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    border-top: 1px dashed var(--cor-borda);
+}
+
+.prazo,
+.card-footer .btn {
+    white-space: nowrap;
+}
+
+.prazo {
+    font-weight: 600;
+    color: var(--cor-principal);
+}
+
+.abas-sobre .nav-pills {
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.abas-sobre .nav-link {
+    color: var(--cor-principal);
+    font-weight: 600;
+    border: 1px solid var(--cor-principal);
+    border-radius: 4px;
+}
+
+.abas-sobre .nav-link .bi {
+    margin-right: 0.35rem;
+}
+
+.abas-sobre .nav-link:hover {
+    background-color: #fff;
+}
+
+.abas-sobre .nav-link.active {
+    background-color: var(--cor-principal);
+    color: #fff;
+}
+
+.abas-sobre .tab-content {
+    background-color: #fff;
+    border: 1px solid var(--cor-borda);
+    border-radius: 6px;
+    padding: 1.25rem 1.5rem;
+    max-width: 720px;
+}
+
+.abas-sobre .tab-content p,
+.abas-sobre .tab-content ul {
+    margin-bottom: 0;
+}
+
+.painel {
+    background-color: var(--cor-secundaria);
+    border: 1px solid var(--cor-borda);
+    border-radius: 6px;
+    padding: 1.75rem;
+}
+
+.painel h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1.25rem;
+}
+
+address p {
+    display: flex;
+    gap: 0.75rem;
+}
+
+address .bi {
+    color: var(--cor-principal);
+    font-size: 1.25rem;
+}
+
+.horario th,
+.horario td {
+    background-color: transparent;
+}
+
+.horario th {
+    font-weight: 400;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: var(--cor-principal);
+    box-shadow: 0 0 0 0.2rem rgba(31, 77, 74, 0.2);
+}
+
+.modal-header {
+    background-color: var(--cor-secundaria);
+}
+
+.modal-title {
+    font-family: var(--fonte-titulo);
+    color: var(--cor-principal);
+}
+
+.rodape {
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+    padding: 3rem 0 1.5rem;
+}
+
+.rodape h4 {
+    color: var(--cor-secundaria);
+    font-size: 1.1rem;
+}
+
+.rodape a {
+    color: var(--cor-secundaria);
+    text-decoration: none;
+}
+
+.rodape a:hover {
+    text-decoration: underline;
+}
+
+.rodape-marca {
+    font-family: var(--fonte-titulo);
+    font-size: 1.3rem;
+}
+
+.copyright {
+    border-top: 1px solid rgba(238, 243, 241, 0.25);
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    font-size: 0.9rem;
+    opacity: 0.85;
+}
+
+@media (max-width: 991.98px) {
+    .btn-menu {
+        margin: 0.5rem 0;
+    }
+
+    .slide {
+        min-height: 600px;
+    }
+
+    .slide-imagem {
+        max-height: 240px;
+        margin-top: 1.5rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    }
+
+    .slide {
+        padding: 2rem 0 3rem;
+    }
+
+    .slide-texto h1 {
+        font-size: 2.1rem;
+    }
+
+    .slide-texto h2 {
+        font-size: 1.6rem;
+    }
+
+    .slide-texto p {
+        font-size: 1rem;
+    }
+
+    .painel {
+        padding: 1.25rem;
+    }
+
+    .secao {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    h2 {
+        font-size: 1.9rem;
+    }
+}
