@@ -14,7 +14,7 @@
 
 **Público-alvo:** pequenas e médias empresas (indústria, logística, varejo e serviços) que dependem de um sistema antigo ou de planilhas para funcionar e não podem ficar paradas durante uma troca de sistema. Quem decide a contratação costuma ser o dono da empresa ou o gestor de operações, nem sempre da área de TI.
 
-**Descrição:** a Container Software foi fundada em 2018, em Curitiba, por dois desenvolvedores que passaram anos mantendo o sistema de uma transportadora. Hoje tem doze pessoas. O nome junta duas ideias: o contêiner de carga, que lembra a origem da empresa na logística, e o contêiner de software, que guarda cada parte de um sistema separada e organizada, do jeito que a empresa gosta de trabalhar.
+**Descrição:** a Container Software foi fundada em 2018 por dois desenvolvedores que passaram anos mantendo o sistema de uma transportadora. Hoje tem doze pessoas e atende clientes de todo o Brasil 100% online. O nome junta duas ideias: o contêiner de carga, que lembra a origem da empresa na logística, e o contêiner de software, que guarda cada parte de um sistema separada e organizada, do jeito que a empresa gosta de trabalhar.
 
 ## 2. Logomarca
 
