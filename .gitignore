@@ -1,0 +1,5 @@
+# Playwright: artefatos da execução (specs e fixtures são versionados)
+playwright-report*/
+test-results*/
+blob-report/
+**/playwright/.cache/
