@@ -1,5 +1,7 @@
 # Container Software
 
+Repositório: [github.com/souluanf/ctn-software](https://github.com/souluanf/ctn-software)
+
 ## 1. A empresa
 
 **Nome:** Container Software
@@ -63,7 +65,7 @@ Site de uma página (single page) com menu fixo no topo levando para cada seçã
 1. **Início:** carrossel com a apresentação da empresa e dois serviços, e cards com os três serviços.
 2. **Sobre nós:** apresentação da empresa e, em abas, missão, visão e valores.
 3. **Contato:** endereço, telefone, e-mail, horário de atendimento e formulário.
-4. **Rodapé:** dados da empresa e links do menu.
+4. **Rodapé:** dados da empresa, links do menu e link do repositório no GitHub.
 
 ## 5. Funcionalidades em JavaScript
 

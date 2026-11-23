@@ -321,6 +321,11 @@ address .bi {
     opacity: 0.85;
 }
 
+.copyright a {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
 @media (max-width: 991.98px) {
     .btn-menu {
         margin: 0.5rem 0;
