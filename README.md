@@ -67,7 +67,9 @@ Site de uma página (single page) com menu fixo no topo levando para cada seçã
 3. **Contato:** endereço, telefone, e-mail, horário de atendimento e formulário.
 4. **Rodapé:** dados da empresa, links do menu e link do repositório no GitHub.
 
-Qualquer endereço que não existe abre a página `404.html`, com links para o início e para o contato.
+Qualquer endereço que não existe abre a página `404.html`, com o mesmo cabeçalho e rodapé do site e links para o início e para o contato. Quem mostra essa página é o servidor: o GitHub Pages usa o `404.html` sozinho, sem configuração. Exemplo: [souluanf.github.io/ctn-software/pagina-que-nao-existe](https://souluanf.github.io/ctn-software/pagina-que-nao-existe).
+
+Abrindo o `index.html` direto do computador, ou com `python3 -m http.server`, a página 404 não aparece: o navegador ou o Python mostram a mensagem de erro deles.
 
 ## 5. Funcionalidades em JavaScript
 
