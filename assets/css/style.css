@@ -6,6 +6,9 @@
     --cor-texto: #1B2726;
     --cor-borda: #D3DFDC;
 
+    --bs-form-invalid-color: #A52834;
+    --bs-form-invalid-border-color: #A52834;
+
     --fonte-titulo: "Archivo", Arial, sans-serif;
     --fonte-texto: "Source Sans 3", Arial, sans-serif;
 }
@@ -23,6 +26,21 @@ body {
 
 a {
     color: var(--cor-principal);
+}
+
+::selection {
+    background-color: var(--cor-destaque);
+    color: var(--cor-texto);
+}
+
+:focus-visible:not(.form-control, .form-select) {
+    outline: 3px solid var(--cor-destaque);
+    outline-offset: 2px;
+}
+
+input,
+textarea {
+    caret-color: var(--cor-principal);
 }
 
 h1, h2, h3, h4 {
@@ -200,10 +218,6 @@ img {
     font-weight: 600;
     border: 1px solid var(--cor-principal);
     border-radius: 4px;
-}
-
-.abas-sobre .nav-link .bi {
-    margin-right: 0.35rem;
 }
 
 .abas-sobre .nav-link:hover {
