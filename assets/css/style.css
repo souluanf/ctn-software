@@ -387,15 +387,6 @@ address .bi {
     flex: 1;
 }
 
-.pagina-erro .rodape {
-    padding: 1.5rem 0;
-}
-
-.pagina-erro .copyright {
-    border-top: 0;
-    padding-top: 0;
-}
-
 .pagina-erro h1 {
     font-size: 3rem;
 }
