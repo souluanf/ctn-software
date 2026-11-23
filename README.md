@@ -67,6 +67,8 @@ Site de uma página (single page) com menu fixo no topo levando para cada seçã
 3. **Contato:** endereço, telefone, e-mail, horário de atendimento e formulário.
 4. **Rodapé:** dados da empresa, links do menu e link do repositório no GitHub.
 
+Qualquer endereço que não existe abre a página `404.html`, com links para o início e para o contato.
+
 ## 5. Funcionalidades em JavaScript
 
 - **Detalhes do serviço:** ao clicar em "Ver detalhes", o JavaScript pega os dados do serviço em um objeto, preenche o modal e monta a lista do que o cliente recebe.

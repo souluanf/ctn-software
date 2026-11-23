@@ -376,3 +376,32 @@ address .bi {
         font-size: 1.9rem;
     }
 }
+
+.pagina-erro {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.pagina-erro main {
+    flex: 1;
+}
+
+.pagina-erro .rodape {
+    padding: 1.5rem 0;
+}
+
+.pagina-erro .copyright {
+    border-top: 0;
+    padding-top: 0;
+}
+
+.pagina-erro h1 {
+    font-size: 3rem;
+}
+
+@media (max-width: 767.98px) {
+    .pagina-erro h1 {
+        font-size: 2.1rem;
+    }
+}
